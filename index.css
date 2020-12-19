@@ -1,0 +1,264 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#divmenu {
+    background-color: #0b8311;
+    width: 100%;
+    height: 60px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+#one {
+    margin: 0;
+}
+
+#three {
+    clear: both;
+}
+
+li {
+    width: 25%;
+    height: 24px;
+    background-color: #0b8311;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 15px;
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    padding-top: 5px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+li:hover {
+    background-color: rgb(73, 143, 64);
+}
+
+input {
+    width: 35%;
+    height: 23px;
+    float: right;
+    margin-top: -15px;
+    margin-right: 15px;
+    font-size: 15px;
+    padding-left: 5px;
+    outline: none;
+    border-style: none;
+    box-shadow: -8px 11px 15px -8px rgba(0, 0, 0, .5) inset;
+}
+
+#divname {
+    width: 98.2%;
+    height: 150px;
+    background-image: url(1.jpg);
+    background-size: 100% 150px;
+    border: 3px solid #0b8311;
+}
+
+h1 {
+    color: rgb(0, 61, 3);
+    font-size: 22px;
+    margin: 10px;
+}
+
+h2 {
+    color: rgb(0, 61, 3);
+    font-size: 22px;
+    margin: 10px;
+}
+
+.text {
+    color: rgb(0, 61, 3);
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+#div1 div {
+    background-color: #043b0686;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+
+#div1 div h3 {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#div1 div p {
+    font-size: 13px;
+    padding: 0px 20px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+#div2 div {
+    background-color: #2d7a30cb;
+    width: 300px;
+    height: 170px;
+    margin: 15px;
+}
+
+#div2 div h4 {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#div2 div p {
+    font-size: 11px;
+    padding: 0px 20px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+hr {
+    clear: both;
+    width: 90%;
+}
+
+@media (min-width: 1365px) and (max-width: 1919px) {
+    #three {
+        clear: none;
+    }
+    li {
+        width: 12%;
+        height: 30px;
+        font-size: 22px;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        padding: 15px;
+        margin-left: -2px;
+        cursor: pointer;
+    }
+    input {
+        width: 30%;
+        float: right;
+        margin-top: 15px;
+    }
+    #divname {
+        width: 99.6%;
+        height: 300px;
+        background-image: url(1.jpg);
+        background-size: 100% 300px;
+    }
+    h1 {
+        margin: 20px 0px 0px 40px;
+        font-size: 40px;
+    }
+    h2 {
+        margin: 20px 0px 0px 40px;
+        font-size: 30px;
+    }
+    .text {
+        margin: 10px 0px 0px 40px;
+        font-size: 25px;
+    }
+    #div1 div {
+        width: 400px;
+        float: left;
+        margin: 30px 0 30px 2.5%;
+    }
+    #div1 div h3 {
+        font-size: 20px;
+        padding: 0;
+    }
+    #div1 div p {
+        font-size: 15px;
+    }
+    #div2 div {
+        width: 400px;
+        height: 220px;
+        float: left;
+        margin: 30px 0 30px 170px;
+    }
+    #div2 div h4 {
+        font-size: 18px;
+        padding: 0;
+    }
+    #div2 div p {
+        font-size: 15px;
+    }
+    hr {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1920px) {
+    #three {
+        clear: none;
+    }
+    li {
+        width: 12%;
+        height: 30px;
+        font-size: 22px;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        padding: 15px;
+        margin-left: -2px;
+        cursor: pointer;
+        float: left;
+    }
+    input {
+        width: 30%;
+        float: right;
+        margin-top: 15px;
+    }
+    #divname {
+        width: 99.6%;
+        height: 300px;
+        background-image: url(1.jpg);
+        background-size: 100% 300px;
+    }
+    h1 {
+        margin: 20px 0px 0px 40px;
+        font-size: 40px;
+    }
+    h2 {
+        margin: 20px 0px 0px 40px;
+        font-size: 30px;
+    }
+    .text {
+        margin: 10px 0px 0px 40px;
+        font-size: 25px;
+    }
+    #div1 div {
+        width: 450px;
+        float: left;
+        margin: 30px 0 30px 7%;
+    }
+    #div1 div h3 {
+        font-size: 20px;
+        padding: 0;
+    }
+    #div1 div p {
+        font-size: 15px;
+    }
+    #div2 div {
+        width: 350px;
+        float: left;
+        margin: 30px 0 30px 5%;
+    }
+    #div2 div h4 {
+        font-size: 15px;
+        padding: 0;
+    }
+    hr {
+        width: 70%;
+    }
+}
